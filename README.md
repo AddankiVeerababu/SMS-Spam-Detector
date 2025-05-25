@@ -1,3 +1,70 @@
-# SMS-Spam-Detector
+📱 **SMS Spam Detection Using Machine Learning – Final Project (2025)**
 
-In our daily life usage of the mobiles increased day by day. It became more advantage for the scammers and scammers using mobile as intermediate gadget to do scams on humans. In different types of scams ,one of the scams is sending the spam SMS to the people, that messages contain the fake links ,taking the personal details like credit card number etc. and the promotions for the products .So, to detect those type of spam SMS messages ,spam detector is used. Implemented the SMS spam detector by using the classification models , Linear Discriminant Analysis and Quadratic Discriminant Analysis . Spam Collection dataset is used as a dataset. The dataset is modified as comfort for the further process and applied the NLP techniques like tokenization, handling stop words, applying the regular expression, porter stemmer on the dataset and finally converted the outcomes from the NLP techniques as a corpus and used that for the count vectorization . For the classification, applied the Linear Discriminant Analysis and Quadratic Discriminant Analysis models. Estimated accuracy ,precision, recall, f1-score,confusion matrix and ROC curve for both the models. Compared the both models performance based on the accuracy, precision, recall , f1-score,confusion matrix and ROC curve
+This project presents a machine learning-based system to detect spam messages in SMS data. It was developed as part of an academic final project and demonstrates the full ML workflow, from data preprocessing and feature extraction to model training and evaluation.
+
+---
+
+📝 **Project Summary**
+
+Spam messages continue to be a major issue in digital communication. Automating spam detection helps filter unwanted texts and improves user safety. In this project, we explore a labeled SMS dataset and apply text preprocessing techniques and machine learning algorithms to classify messages as **"spam"** or **"ham"**.
+
+---
+
+📌 **Key Highlights**
+
+- ✅ Cleaned and preprocessed 5,000+ SMS messages  
+- 🧹 Removed punctuation, stopwords, and performed tokenization  
+- 🔠 Applied text vectorization using TF-IDF  
+- 🧠 Trained models: Naive Bayes, Logistic Regression, SVM  
+- 📈 Evaluated using accuracy, confusion matrix, and classification report  
+- 🧪 Compared multiple models to identify the best performer
+
+---
+
+📚 **Notebook Workflow**
+
+1. **Library Imports** – Used `pandas`, `sklearn`, `nltk`, `matplotlib`, etc.  
+2. **Data Loading** – Imported labeled SMS spam dataset  
+3. **Text Preprocessing** – Tokenization, stopword removal, TF-IDF vectorization  
+4. **Exploratory Analysis** – Visualized message lengths and class distributions  
+5. **Modeling** – Trained multiple classifiers (MultinomialNB, Logistic Regression, SVM)  
+6. **Evaluation** – Used accuracy, precision, recall, F1-score, and confusion matrix  
+7. **Final Output** – Deployed model pipeline with prediction function
+
+---
+
+📊 **Visualizations Include**
+
+- Class distribution (spam vs. ham)  
+- Histogram of message lengths  
+- Confusion matrix plots  
+- Model performance comparison
+
+---
+
+🛠️ **Tools & Technologies Used**
+
+| Tool / Library | Purpose |
+|----------------|---------|
+| **Python** | Programming language |
+| **Jupyter Notebook** | Development environment |
+| **pandas & numpy** | Data handling |
+| **nltk** | Natural language processing |
+| **scikit-learn** | Machine learning pipeline |
+| **matplotlib & seaborn** | Data visualization |
+
+---
+
+🧾 **File Details**
+
+- `SMS Spam Detector.ipynb` – Notebook with the full workflow  
+- *(Optional)* `spam.csv` – SMS labeled dataset (public UCI dataset)
+
+---
+
+🚀 **How to Run**
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/sms-spam-detector.git
+   cd sms-spam-detector
