@@ -1,4 +1,4 @@
-📱 **SMS Spam Detection Using Machine Learning – Final Project (2025)**
+📱 **SMS Spam Detection Using Machine Learning **
 
 This project presents a machine learning-based system to detect spam messages in SMS data. It was developed as part of an academic final project and demonstrates the full ML workflow, from data preprocessing and feature extraction to model training and evaluation.
 
@@ -60,11 +60,4 @@ Spam messages continue to be a major issue in digital communication. Automating 
 - `SMS Spam Detector.ipynb` – Notebook with the full workflow  
 - *(Optional)* `spam.csv` – SMS labeled dataset (public UCI dataset)
 
----
 
-🚀 **How to Run**
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/sms-spam-detector.git
-   cd sms-spam-detector
